@@ -1,0 +1,15 @@
+{
+    "name": "Codeforces Tag Hider",
+    "description": "Codeforces Tag Hider",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": ["activeTab","tabs"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "content_scripts": [
+        {
+          "matches": ["*://*.codeforces.com/problemset/problem/*","*://*.codeforces.com/contest/*"],
+          "js": ["hello.js"]
+        }
+    ] 
+    
+  }
