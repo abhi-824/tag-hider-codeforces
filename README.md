@@ -14,7 +14,7 @@ You are ready to go on chrome
 
 ## Installation in Mozilla
 
-For people like me who prefer mozilla over chrome due to chrome's high apetite of RAM, Here are the steps
+For people like me who prefer mozilla over chrome due to chrome's high apetite of RAM(now I use Brave instead), Here are the steps
 - Go to `about:debugging#/runtime/this-firefox`
 - Click on `Load Temporary Add-on`(Yes we are temporary😢)
 - Select `hello.js`
